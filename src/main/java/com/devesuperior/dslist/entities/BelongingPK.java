@@ -21,7 +21,6 @@ public class BelongingPK {
 	}
 
 	public BelongingPK(Game game, GameList list) {
-		super();
 		this.game = game;
 		this.list = list;
 	}
@@ -58,7 +57,5 @@ public class BelongingPK {
 		BelongingPK other = (BelongingPK) obj;
 		return Objects.equals(game, other.game) && Objects.equals(list, other.list);
 	}
-	
-	
 
 }
